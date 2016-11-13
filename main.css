@@ -1,0 +1,96 @@
+nav {
+	padding: 10px
+	height: 40px;
+	background-color: grey;
+	position: fixed
+	width: 100%;
+	top: 0;
+}
+
+ul {
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.GList {
+	font-color: black;
+	font-family: Helvetica;
+	padding-right: 1060px
+}
+
+.PA {
+	display: inline-block;
+	padding-right: 10px;
+	font-color: purple;
+	font-family: Helvetica
+	padding-right: 10px;
+
+}
+
+.search {
+	display: inline-block
+	font-family: Helvetica;
+	margin-top: 30px
+	padding-right: 10px
+
+}
+
+form {
+	border: 10px grey;
+	margin-left: 500px;
+}
+
+.MGlass {
+	margin-left: 650px;
+	border: 2px solid black;
+	width: 30px;
+	width: 30px;
+	margin-top: -40px;
+}
+
+p {
+	margin-top: 30px
+	margin-bottom: 30px;
+}
+
+.pages {
+	display: inline-block;
+	border: 2px solid black;
+	height: 40px;
+	margin-left: 200px;
+	font-family: Helvetica
+}
+
+.prev {
+  display: inline-block;
+  border: 2px solid black;
+  height: 40px;
+  padding-right: 2px;
+}
+
+.numbers {
+  display: inline-block;
+  border: 2px solid black;
+  height: 40px;
+  padding-right: 2px;
+}
+
+.next {
+  display: inline-block;
+  border: 2px solid black;
+  height: 40px;
+  padding-left: 2px;
+  padding-right: 2px
+}
+
+
+main {
+	margin-left: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Helvetica
+}
