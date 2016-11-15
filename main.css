@@ -8,18 +8,19 @@ nav {
 	margin-bottom: 20px;
 	height: 40px;
 	background-color: grey;
-	position: fixed
+	position: fixed;
 	width: 100%;
 	top: 0;
-	position: fixed;
 
 }
 
-ul {
+nav ul {
 	display: inline-block;
+	position: absolute;
+	right: 150px;
 }
 
-li {
+nav ul li {
 	display: inline-block;
 	font-size: 20px;
 }
@@ -27,8 +28,6 @@ li {
 .GList {
 	font-color: black;
 	font-family: Helvetica;
-	padding-right: 1060px;
-	position: fixed;
 }
 
 .PA {
@@ -37,7 +36,6 @@ li {
 	font-color: purple;
 	font-family: Helvetica;
 	padding-right: 10px;
-	position: fixed;
 
 }
 
@@ -46,9 +44,12 @@ li {
 	height: 40px;
 	display: inline-block;
 	font-family: Helvetica;
-	margin-top: 30px
-	padding-right: 10px
+	margin-top: 150px;
+	padding-right: 10px;
 
+}
+.search input {
+	font-size: 20px;
 }
 
 form {
